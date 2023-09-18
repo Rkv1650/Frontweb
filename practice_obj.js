@@ -20,3 +20,4 @@ let employe ={
     email:"rkvgaming9@gmail.com"
 };
 console.log(employe.name ,employe.email)
+console.log("good by")
