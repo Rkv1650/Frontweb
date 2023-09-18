@@ -9,4 +9,14 @@
 for(let i=1; i<=100; i++){
     console.log(i)
 };
-
+// Q2 use for in loop object and print marks
+let student={
+    ramji:89,
+    suman:78,
+    Nahi:45,
+    ruhi:90,
+    mamta:67,
+};
+for(let a in student){
+    console.log(a + "is Marks " + student[a])
+}
