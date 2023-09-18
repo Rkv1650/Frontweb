@@ -5,4 +5,3 @@ var product={
     ram:"8gb",
 };
 console.log(product)
-console.log(product.model_name)
