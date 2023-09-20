@@ -7,3 +7,4 @@ var student_marks={
 for(let a in student_marks){
     console.log(a + ' :' + student_marks[a])
 }
+console.log("Hello")
