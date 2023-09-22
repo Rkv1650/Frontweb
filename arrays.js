@@ -1,16 +1,22 @@
-var a=[10,2,35,16,5,12];
-var b=[1,2,3,4,5,6,7];
-var c=[101,102,103,104]
-let c=a.join(",")
-console.log(c)
-a.pop()
+const a=[1,2,3,4];
+const b=[6,7,8,9,];
+const c=[10,11];
+let z=[20,11,17,35,22,80,60]
+const e=a.join('r');
+console.log(e);
+const f=a+b+c;
+console.log(f)
+a.pop();
 console.log(a)
-a.push(7)
+a.push(90);
 console.log(a)
 a.shift()
 console.log(a)
-a.unshift(90)
+a.unshift(67)
 console.log(a)
-var sum=a.concat(b,c);
-console.log(sum)
-
+a.reverse()
+console.log(a)
+r=a.concat(b,c,e,f)
+console.log(r)
+z.sort()
+console.log(z)

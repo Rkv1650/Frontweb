@@ -1,19 +1,42 @@
 // Function --> a set or collection of code or statement or Intersection  which are used to particuler action task
-const sum =(a,b)=>{
-    return a+b;
-    
-}
-console.log(sum(2,5))
-//Q2 write a function to find mean of 5 numbers
-const total =(a,b,c,d,e)=>{
-    return (a+b+c+d+e)/2;
+const someInformation=()=>{
+    console.log("Hi Rahul Kumar");
 };
-console.log(total(8,9,7,60,20))
-const marks=()=>{
-    let num=parseInt(prompt("Enter A Value "));
-    let num1=parseInt(prompt("Enter A Value "));
-    const total=num +num1
-    console.log(total)
+someInformation()
+// console.log(someInformation()) undefined
+
+
+// function with a parameters
+const login=(username,passward)=>{
+    console.log("User name is " + "" +username );
+    console.log(`passwar is ` + passward);
 
 };
-console.log(marks())
+login("rahul","Rahul@1650");
+
+// find a area use a function method
+const calculateArea=(width,height=1)=> {
+    const area=width*height;
+    return area;    
+};
+const area=calculateArea(60);
+console.log(area);
+const totalArea=(width,height)=> {
+    const mut =width*height;
+    return mut;    
+};
+const mut=totalArea(60,60);
+console.log(mut);
+// write a function to find mean of 5 number
+const sumeTotal=(a,b,c,d,e)=>{
+    const sum=a+b+c+d+e;
+    return sum;
+};
+const sum=sumeTotal(3,7,8,9,30);
+console.log(sum)
+// virables function
+const downlod=()=>{
+    const fileNmae="xyz.pdf"
+    console.log(fileNmae)
+}
+downlod()

@@ -12,12 +12,14 @@ student.name="Ram Ji";
 console.log(student);
 delete student.name ;
 console.log(student);
-
+console.log(typeof (student))
 //02  let
 
 let name =`ramji`;
 name="suraj ";
 console.log(name)
+console.log(typeof(name))
 // 03 Const
-const number = "Ram";
+const number = "13";
 console.log(number)
+console.log(typeof(number))
